@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/all.min.css">
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
     <title>JS_Assignment</title>
 </head>
 <body>
     <!-- Navbar Start-->
-    <header class="navbar">
+    <header class="navbar container">
         <h2 class="logo"><img src="Images/favicon2.png" width="22px" height="22px" alt="">PLANTX</h2>
-        <a href="#" class="btn">
+        <a href="#" class="btn1">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </a>
-        <nav>
-            <ul class="nav-link">
+        <div  class="nav-link">
+            <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Products</a></li>
@@ -26,12 +26,27 @@
                 <li><a href="#">Contact us</a></li>
                 <li><a href="#"><img src="Images/moon(dark).svg" alt=""></a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     
+<!-- Carousel Section Start -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 txt">
+            <p class="para1">Plants will make
+                your life better</p>
+            <p class="para2">Create incredible plant design for your offices or apartments. Add freshness to your ideas.</p>
+            <button class="btn btn-success rounded">Explore <img src="Images/baseline_south_east_white_24dp.png" alt=""></button>
+        </div>
+        <div class="col-md-6 homepic">
+            <img src="Images/home.png" height="100%" width="75%" alt="plant">
+        </div>
+    </div>
+</div>
 
+<!-- Carousel Section End -->
 
-<!-- <script src="Js/bootstrap.bundle.min.js"></script> -->
+<script src="Js/bootstrap.bundle.min.js"></script>
 <script src="Js/script.js"></script>
 </body>
 </html>
